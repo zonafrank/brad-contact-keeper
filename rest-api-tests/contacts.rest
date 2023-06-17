@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/contacts
+
+###
+POST http://localhost:5000/api/contacts
+
+###
+PUT http://localhost:5000/api/contacts/12345
+
+###
+DELETE http://localhost:5000/api/contacts/12345

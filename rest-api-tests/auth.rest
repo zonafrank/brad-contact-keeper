@@ -1,4 +1,12 @@
 GET http://localhost:5000/api/auth
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ4ZDg5ZmIxMDM5OTU3M2M2ZDFjYzAwIn0sImlhdCI6MTY4NzA1NjU2NSwiZXhwIjoxNjg3MDkyNTY1fQ.2IDVv9q-QQbM_u8P_kJHSJbDgMcPsB4CvkdXsoicw1M
+
 
 ###
 POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+  "email": "john.doe@email.com",
+  "password": "password123"
+}
